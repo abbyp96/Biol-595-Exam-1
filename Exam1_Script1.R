@@ -59,3 +59,17 @@ da = c("short", "medium", "tall")
 daf = factor(da, levels = c("short", "medium", "tall"))
 class(daf)
 levels(daf)
+
+
+# Data Storage Structures -------------------------------------------------
+
+ray = array(c(1:23), dim = c(4,3,2))
+
+mat = matrix(c(1:10), nrow = 5, ncol = 2)
+#an array is 3-D while matrices are only 2-D
+o = mat[4,1]
+o
+
+s = ray[2,2,2]
+s
+
