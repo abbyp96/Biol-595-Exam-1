@@ -42,3 +42,10 @@ t ; u ; v
 e = c(1:10)
 e[11]
 
+
+# Conditional Statement ---------------------------------------------------
+
+ifelse = function(g) 
+{switch(g, s="octopus", t="squid", u="hippo", v="nudibranch")}
+ifelse("s")
+
