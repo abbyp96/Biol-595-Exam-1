@@ -49,3 +49,13 @@ ifelse = function(g)
 {switch(g, s="octopus", t="squid", u="hippo", v="nudibranch")}
 ifelse("s")
 
+
+# Object Data Types -------------------------------------------------------
+
+g = "fish"
+h = as.integer(c(3,4,5))
+i = as.double(c(4,5,6,7))
+da = c("short", "medium", "tall")
+daf = factor(da, levels = c("short", "medium", "tall"))
+class(daf)
+levels(daf)
